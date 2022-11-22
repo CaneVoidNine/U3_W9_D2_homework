@@ -53,7 +53,7 @@ class LatestRelease extends Component {
             </Carousel.Item>
           ))}
         </Carousel>
-        <h2>History books: </h2>
+        <h2>History books </h2>
         <Carousel interval={9999} className="mb-3 mt-3">
           {books4.map((book4) => (
             <Carousel.Item key={book4.id}>
@@ -69,7 +69,7 @@ class LatestRelease extends Component {
             </Carousel.Item>
           ))}
         </Carousel>
-        <h2>Romance books: </h2>
+        <h2>Romance books </h2>
         <Carousel interval={9999} className="mb-3 mt-3">
           {books5.map((book5) => (
             <Carousel.Item key={book5.id}>
